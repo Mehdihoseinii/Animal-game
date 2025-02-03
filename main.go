@@ -9,8 +9,8 @@ import (
 
 func main() {
 	//macke plaeyer
-	dog := gamerace.NewDog("Alex")
-	cat := gamerace.NewCat("Bincky")
+	dog := gamerace.NewDog("Alexy")
+	cat := gamerace.NewCat("Binky")
 	owl := gamerace.NewOwl("Hanna")
 
 	//macke game

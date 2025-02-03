@@ -1,6 +1,6 @@
 package gamerace
 
-//**** Dag ****//
+//**** Dag ****//------------------------
 type Dog struct {
 	name  string
 	speed int
@@ -8,7 +8,7 @@ type Dog struct {
 }
 
 func NewDog(name string) *Dog {
-	return &Dog{name, 1, 0}
+	return &Dog{name, 3, 0}
 }
 func (c *Dog) Name() string {
 	return c.name
@@ -51,7 +51,7 @@ type Owl struct {
 }
 
 func NewOwl(name string) *Owl {
-	return &Owl{name, 1, 0}
+	return &Owl{name, 2, 0}
 }
 func (c *Owl) Name() string {
 	return c.name
